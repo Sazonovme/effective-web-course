@@ -430,6 +430,7 @@ header {
   margin: 0 50px;
   z-index: 2;
   position: relative;
+  padding-bottom: 80px;
 }
 .blocks-text {
   font-size: 18px;
