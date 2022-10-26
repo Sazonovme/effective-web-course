@@ -1,0 +1,130 @@
+.main
+   height: 1190px
+   &-img
+      position: absolute
+      right: 0
+      z-index: 1
+   &-tittle
+      font-weight: 800
+      font-size: 96px
+      padding-top: 80px
+      z-index: 2
+      position: relative
+      text-align: center
+   &-subtittle
+      font-weight: 900
+      font-size: 64px
+      text-align: center
+      z-index: 2
+      position: relative
+      margin-bottom: 90px
+.tittle-span
+   color: #E84393
+   text-shadow: 0px 4px 0px #FFFFFF
+   position: relative
+   z-index: 2
+   background-image: url('../img/underline.png')
+   background-repeat: no-repeat
+   background-position: bottom
+   background-size: contain
+   &-img
+      position: absolute
+      z-index: 1
+.rectangle 
+   opacity: 70%
+.blocks
+   display: grid
+   grid-template-columns: repeat(18, 1fr)
+   grid-template-rows: repeat(4, 1fr)
+   grid-gap: 30px
+   margin: 0 50px
+   z-index: 2
+   position: relative
+   &-text
+      font-size: 18px
+      font-weight: 400
+      line-height: 32px
+   &-btn
+      grid-column: 1/6
+      grid-row: 4/5
+      border-radius: 999px
+      box-shadow: 0px 5px 10px rgba(24, 30, 34, 0.382)
+      font-weight: 700
+      font-size: 32px
+      color: #6C5CE7
+      border: none
+      background-color: white
+      height: 82px
+.first
+   grid-column: 1/6
+   grid-row: 1/2
+   width: 270px
+   margin-left: 20px
+.second
+   grid-column: 13/19
+   grid-row: 1/2
+   align-self: end
+   margin-bottom: 0
+.block
+   border-radius: 20px
+.green
+   background-color: #00B894
+   grid-column: 6/13
+   grid-row: 1/3
+   height: 400px
+   display: flex
+   justify-content: center
+   align-items: center
+   &-text
+      font-weight: 700
+      font-size: 48px
+      color: white
+.purple
+   background-color: #A29BFE
+   grid-column: 13/16
+   grid-row: 2/3
+.blue
+   background: url(../img/sneaker.jpeg)
+   background-repeat: no-repeat
+   background-size: cover
+   grid-column: 16/19
+   grid-row: 2/3
+.yellow
+   background-color: #FDCB6E
+   grid-column: 1/6
+   grid-row: 2/5
+   height: 460px
+   margin-top: -70px
+   display: flex
+   flex-direction: column
+   align-items: center
+   &-text
+      font-weight: 700
+      font-size: 18px
+      line-height: 32px
+      text-align: center
+      width: 250px
+      margin: 50px 0 10px 0
+      &-down
+         font-weight: 400
+         margin-top: 0
+.pink
+   background-color: #E84393
+   grid-column: 6/10
+   grid-row: 3/5
+   height: 300px
+.violet
+   background-color: #6C5CE7
+   grid-column: 10/16
+   grid-row: 3/5
+   display: flex
+   justify-content: center
+   align-items: center
+   &-text
+      font-weight: 700
+      font-size: 48px
+      color: white
+.red
+   background-color: #FF7675
+   grid-column: 16/19
+   grid-row: 3/4
