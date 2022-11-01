@@ -381,6 +381,11 @@ header {
   font-size: 24px;
   font-weight: 700;
 }
+.navbar-btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
 
 .main {
   height: 1350px;
