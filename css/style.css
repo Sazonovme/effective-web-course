@@ -740,6 +740,11 @@ header {
   width: 146px;
   height: 48px;
 }
+.advantage-btn:hover {
+  background-color: #6C5CE7;
+  color: white;
+  border: none;
+}
 
 .footer {
   display: grid;
