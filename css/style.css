@@ -452,6 +452,10 @@ header {
   background-color: white;
   height: 82px;
 }
+.blocks-btn:hover {
+  color: white;
+  background-color: #6C5CE7;
+}
 
 .first {
   grid-column: 1/6;
