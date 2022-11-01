@@ -643,6 +643,11 @@ header {
   color: #6C5CE7;
   letter-spacing: 0.25px;
 }
+.price-block-btn:hover {
+  background-color: #6C5CE7;
+  color: white;
+  border: none;
+}
 .price-bacground-img {
   position: absolute;
   z-index: -1;
@@ -668,6 +673,12 @@ header {
 .price-block-shadow .price-block-btn {
   background-color: #6C5CE7;
   color: white;
+}
+
+.price-block-shadow .price-block-btn:hover {
+  background-color: white;
+  color: #6C5CE7;
+  border: 2px solid #6C5CE7;
 }
 
 .advantages {
